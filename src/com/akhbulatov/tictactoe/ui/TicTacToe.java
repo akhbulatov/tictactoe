@@ -373,8 +373,8 @@ public class TicTacToe extends JFrame {
                             playSoundWin();
                         }
                         Statistics.incrementWinNoughts();
-                        confirm = JOptionPane.showOptionDialog(mainPanel, "The zeros won!\n\n" + playAgain,
-                                "The zeros won!", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE,
+                        confirm = JOptionPane.showOptionDialog(mainPanel, "The noughts won!\n\n" + playAgain,
+                                "The noughts won!", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE,
                                 null, options, options[0]);
                         break;
                 }

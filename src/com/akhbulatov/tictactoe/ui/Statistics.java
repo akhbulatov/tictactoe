@@ -138,7 +138,7 @@ class Statistics extends JDialog {
         winCrossesPanel.add(numberWinCrossesLabel);
         winCrossesPanel.add(Box.createHorizontalGlue());
 
-        winNoughtsLabel.setText("Winning zeros:");
+        winNoughtsLabel.setText("Winning noughts:");
         winNoughtsPanel.add(winNoughtsLabel);
         winNoughtsPanel.add(Box.createHorizontalStrut(5));
 
@@ -162,7 +162,7 @@ class Statistics extends JDialog {
         percentageCrossesPanel.add(numberPercentageCrossesLabel);
         percentageCrossesPanel.add(Box.createHorizontalGlue());
 
-        percentageNoughtsLabel.setText("Winning percentage of zeros:");
+        percentageNoughtsLabel.setText("Winning percentage of noughts:");
         percentageNoughtsPanel.add(percentageNoughtsLabel);
         percentageNoughtsPanel.add(Box.createHorizontalStrut(5));
 
